@@ -15,6 +15,20 @@ body {
     margin: 0 auto;
 }
 
+.corner-image {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 104px;
+    max-height: 150px;
+    object-fit: contain;
+    padding: 4px;
+    background: #fff;
+    border: 1px solid #ff8c1a;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgb(0 0 0 / 35%);
+}
+
 h1 {
     margin: 0 0 24px;
     color: #ff8c1a;
@@ -92,4 +106,13 @@ th {
 
 tr:nth-child(even) td {
     background: #2e2e3d;
+}
+
+@media (max-width: 600px) {
+    .corner-image {
+        right: 12px;
+        bottom: 12px;
+        width: 76px;
+        max-height: 110px;
+    }
 }

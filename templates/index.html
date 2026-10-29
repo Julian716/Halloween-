@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Halloween Monsters</h1>
+        <h1>La seleccion de las tinieblas</h1>
 
         <form action="/monster" method="post">
             <label>Nombre <input type="text" name="name" required></label>
@@ -29,5 +29,10 @@
             {% endfor %}
         </table>
     </div>
+    <img
+        class="corner-image"
+        src="{{ url_for('static', filename='images/imagen-esquina.png') }}"
+        alt="Formato de solicitud de empleo"
+    >
 </body>
 </html>
