@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="night" x2="0" y2="1">
+      <stop stop-color="#100817"/>
+      <stop offset=".58" stop-color="#1b0c23"/>
+      <stop offset="1" stop-color="#100d17"/>
+    </linearGradient>
+    <linearGradient id="mist" x2="0" y2="1">
+      <stop stop-color="#8f8490" stop-opacity="0"/>
+      <stop offset=".55" stop-color="#8f8490" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#b0a5ae" stop-opacity=".04"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#6b4c68" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#241229" stop-opacity="0"/>
+    </radialGradient>
+    <g id="web" fill="none" stroke="#96839b" stroke-opacity=".42" stroke-width="1.5">
+      <path d="M0 0Q20 78 115 108M0 0Q62 28 115 108M0 0Q100 0 115 108M0 0Q8 102 115 108M0 0L115 108"/>
+      <path d="M14 34Q45 57 40 77Q35 98 18 101M37 20Q74 42 67 70Q63 91 45 100M65 11Q101 35 91 66Q85 91 69 103M91 7Q117 30 108 57"/>
+    </g>
+  </defs>
+  <path fill="url(#night)" d="M0 0h1600v1000H0z"/>
+  <ellipse cx="1220" cy="500" rx="680" ry="420" fill="url(#glow)"/>
+  <g fill="#05050a" opacity=".92">
+    <path d="M0 750Q110 695 210 740T430 720Q535 690 650 740T900 705Q1030 670 1130 730T1370 700Q1500 675 1600 725V1000H0z"/>
+    <path d="M0 840Q170 760 310 820T620 800Q760 760 920 820T1250 790Q1450 755 1600 820V1000H0z"/>
+    <path d="M1320 720l-7-146-50-74 49 37-8-95 30 95 39-48-35 69 12 162zM1400 725l7-115-40-60 39 36 4-78 15 85 36-36-32 58 2 110z"/>
+    <path d="M85 750l8-120-46-72 44 43-2-90 23 98 43-37-38 62 8 122z"/>
+  </g>
+  <path fill="url(#mist)" d="M0 660q180-60 340 0t350 0 350 0 350 0 350 0v340H0z"/>
+  <g fill="none" stroke="#b3a5b2" stroke-opacity=".12" stroke-width="24">
+    <path d="M-50 790q170-90 340 0t340 0 340 0 340 0 340 0"/>
+    <path d="M-70 860q160-65 320 0t320 0 320 0 320 0 320 0"/>
+  </g>
+  <g fill="#030309">
+    <path d="M1190 315c-28-30-56-20-77 0-22-17-48-25-73-10 28 4 38 18 49 32 17-11 38-9 53 5 12-15 28-23 48-27zm176 69c-24-25-49-16-67 1-19-15-41-22-63-9 24 3 33 15 43 27 15-9 33-8 46 5 11-13 25-20 41-24z"/>
+    <path d="M1402 515c-17-18-36-12-49 1-14-11-30-16-46-7 17 2 24 11 31 20 11-7 24-6 34 3 8-9 18-14 30-17z"/>
+  </g>
+  <use href="#web" x="0" y="0"/>
+  <use href="#web" transform="translate(1600) scale(-1 1)"/>
+  <path d="M87 0v104m1426-104v103" stroke="#a99aae" stroke-opacity=".22"/>
+  <circle cx="87" cy="105" r="4" fill="#6c5a70" fill-opacity=".4"/>
+  <circle cx="1513" cy="104" r="4" fill="#6c5a70" fill-opacity=".4"/>
+</svg>
