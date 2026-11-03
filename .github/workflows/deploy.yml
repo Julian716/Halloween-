@@ -22,8 +22,12 @@ jobs:
       - name: Check that the app loads
         run: python -c "import app"
 
+      - name: Run unit tests
+        run: python -m pytest tests -v
+
   deploy:
     needs: check
+    if: ${{ needs.check.result == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Render deploy
